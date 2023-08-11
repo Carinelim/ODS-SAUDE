@@ -1,0 +1,588 @@
+   body{
+    margin: 0%;
+    padding: 0%;
+
+   }
+
+    .container{
+    height: 100%;
+   width: 100%;
+    }
+
+    .container img{
+
+        margin: 0%;
+        object-fit: contain;
+        height: 100%;
+    }
+/*botao conheça a ods*/
+.button{
+position: absolute;
+top: 60%;
+left: 50%;
+width: 400px;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+background-color:#556B2f;
+color: white;
+font-size: 40px;
+padding: 10px 10px;
+border-radius: 10px;
+cursor: pointer;
+border: 0px;
+text-align: center;
+text-decoration: none;
+font-family:Georgia;
+
+}
+
+.button:hover{
+    color: #008b8b;
+}
+
+div{
+    margin: 0px;
+}
+/*titulo principal*/
+h1{
+text-shadow: 5px 5px grey;
+    position: absolute;
+    text-align: center;
+top: 18%;
+left: 26%;
+font-size: 100px;
+font-family: monospace;
+color:white;
+letter-spacing: 1px;
+border-radius: 10px;
+}
+
+div{
+    margin: 0px;
+}
+
+/*texto abaixo do título*/
+p{
+    top: 40%;
+    position: absolute;
+    left: 20%;
+    font-size: 30px;
+    color: white;
+    font-family:georgia;
+
+}
+
+
+/*vídeo do youtube*/
+iframe{
+    position: absolute;
+    top: 100%;
+    margin: 1%;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+}
+
+#novo-video{
+    position: absolute;
+    top: 150%;
+    margin: 1%;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+}
+
+
+/*criando linhas*/
+#linha-vertical {
+position: absolute;
+top: 45%;
+border-left: 2px solid grey;
+height: 1280px;
+margin: 23%;
+}
+/*linha vertical direita*/
+#linha-vertical-direita{
+position: absolute;
+top: 45%;
+border-right: 2px solid grey;
+height: 1280px;
+margin: 22%;
+right: 5%;
+}
+
+
+/*links relacionados*/
+#text{
+position: absolute;
+top: 93%;
+left: 1%;
+background-color: #556B2f;
+width: 400px;
+height: 55px;
+text-align: center;
+color: white;
+border-radius: 10px;
+}
+
+#link:hover{
+    color: #008b8b;
+}
+
+/*paragrafo abaixo do vídeo*/
+#paragrafo-estando{
+position: absolute;
+    font-size: 22px;
+    color: #556B2f;
+    position: absolute;
+    top: 133%;
+    left: 1%;
+}
+#titulo-dois{
+    position: absolute;
+    top: 185%;
+    left: 1%;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+
+#link{
+    text-decoration: none;
+    color: #556B2f;
+}
+
+#link-dois{
+    text-decoration: none;
+    color: #556B2f;
+}
+
+#link-dois:hover{
+    color: #008b8b;
+}
+/*menu*/
+header{
+margin:0%;
+
+}
+
+#menu{
+  display: flex;
+position: absolute;
+  justify-content: center;
+  background-color: #556B2f;
+  padding: 0%;
+  top: 75%;
+  text-align: center;
+  height: 70px;
+  opacity: 85%;
+
+}
+
+
+#menu li{
+    list-style: none;
+   margin: 0px 30px;
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+header a:hover{
+    background-color: #008b8b;
+    opacity: 50%;
+}
+
+/*conceito de saúde*/
+#conceito{
+    position: absolute;
+text-align: center;
+top: 102%;
+font-size: 20px;
+color: black;
+left: 28%;
+}
+/*título saude*/
+#saude{
+    background-color: #556B2f;
+    width: 200px;
+    height: 55px;
+position: absolute;
+text-align: center;
+    top: 90%;
+    color: white;
+    font-size: 40px;
+    left: 28%;
+    border-radius: 10px;
+}
+/*fofo saude*/
+#foto{
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    top: 112%;
+    left: 28%;
+}
+
+#pequeno-texto{
+    display: flex;
+text-align: center;
+    position: absolute;
+    top: 75%;
+   
+}
+
+#bem-estar{
+    background-color: #556B2f;
+    width: 200px;
+    height: 55px;
+position: absolute;
+text-align: center;
+    top: 155%;
+    color: white;
+    font-size: 40px;
+    left: 28%;
+    border-radius: 10px; 
+}
+
+#conceito-bem-estar{
+    position: absolute;
+    text-align: center;
+    top: 165%;
+    font-size: 20px;
+    color: black;
+    left: 26%;
+    }
+
+    #foto-bem-estar{
+        position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    top: 180%;
+    left: 28%;
+}
+
+#segundo-texto{
+    display: flex;
+    text-align: center;
+        position: absolute;
+        top: 75%;
+
+   }    
+
+   /*ods*/
+   #ods{
+    background-color: #556B2f;
+    width: 1000px;
+    height: 55px;
+position: absolute;
+text-align: center;
+justify-content: center;
+    top: 226%;
+    color: white;
+    font-size: 40px;
+    left: 22%;
+    border-radius: 10px;
+}
+
+
+#metas{
+    display: flex;
+    position: absolute;
+      justify-content: center;
+      padding: 0%;
+      background-color: #008b8b;
+      top: 238%;
+      text-align: center;
+      height: 71px;
+      opacity: 85%;
+      left: 21%;
+      color: black;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      border-radius: 2px;
+}
+
+#paragrafo-metas{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 24%;
+    top: 248%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-dois{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 253%;
+    color: black;
+    font-size: 20px;
+}
+#paragrafo-tres{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 262%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-quatro{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 269%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-cinco{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 275%;
+    color: black;
+    font-size: 20px;
+}
+#paragrafo-seis{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 279%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-sete{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 284%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-oito{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 291%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-nove{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 298%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-dez{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 305%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-onze{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 310%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-doze{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 324%;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-treze{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 23%;
+    top: 334%;
+    color: black;
+    font-size: 20px;
+}
+
+footer{   
+    position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #556B2f;
+opacity: 90%;
+color: white;
+top: 360%;
+height: 250px;
+width: 100%;
+}
+
+#rodape{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    font-size: 30px;
+
+}
+
+
+#titulo-contact{
+   top: 5%;
+    text-align: center;
+    font-size: 40px;
+ 
+}
+
+#titulo-email{
+
+position: absolute;
+top: 79%;
+left: 20%;
+font-size: 25px;
+}
+
+#gmail{
+    position: absolute;
+    top: 79%;
+    left: 25%;
+    font-size: 25px;
+}
+#minhas-redes-sociais a{
+   position: absolute;
+    text-decoration: none;
+    top: 89%;
+    font-size: 25px;
+    color: white;
+    left: 47%;
+}
+
+#minhas-redes-sociais a:hover{
+    color: #008b8b;
+}
+
+#logo-linkedin{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+#carine-lim{
+position: absolute;
+left: 7%;
+top: 15%;
+}
+
+#logo-insta{
+    position: absolute;
+    top: 88%;
+    left: 60%;
+}
+
+#instagram a{
+    position: absolute;
+    color: white;
+    top: 89%;
+    font-size: 25px;
+    left: 63%;
+    text-decoration: none;
+}
+#instagram a:hover{
+    color: #008b8b;
+}
+
+#artigos{
+    position: absolute;
+ right: 1%;
+ top: 93%;
+ width: 400px;
+height: 55px;
+border-radius: 10px;
+background-color: #556B2f;
+color: white;
+text-align: center;
+}
+
+#artigo-um{
+    position:absolute;
+    right: 2%;
+    top: 110%;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#artigo-um a{
+color: #556B2f;
+}
+
+#artigo-dois{
+    position:absolute;
+    right: 4%;
+    top: 140%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#artigo-dois a{
+    color: #556B2f;
+}
+
+#artigo-tres{
+    position:absolute;
+    right: 1%;
+    top: 170%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#artigo-tres a{
+color: #556B2f;
+}
