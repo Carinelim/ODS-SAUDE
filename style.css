@@ -1,588 +1,502 @@
-   body{
-    margin: 0%;
-    padding: 0%;
+*{
+  padding: 0;
+  margin: 0;
+}
 
-   }
-
-    .container{
-    height: 100%;
-   width: 100%;
-    }
-
-    .container img{
-
-        margin: 0%;
-        object-fit: contain;
-        height: 100%;
-    }
-/*botao conheça a ods*/
-.button{
-position: absolute;
-top: 60%;
-left: 50%;
-width: 400px;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-background-color:#556B2f;
-color: white;
-font-size: 40px;
-padding: 10px 10px;
-border-radius: 10px;
-cursor: pointer;
-border: 0px;
-text-align: center;
-text-decoration: none;
-font-family:Georgia;
+body{
+    margin: 0;
+ 
 
 }
 
-.button:hover{
-    color: #008b8b;
+header> .interface{
+
+    justify-content: space-between;
+    align-items: center;
 }
 
-div{
-    margin: 0px;
+
+
+.img-topo img{
+    max-width: 100%;
+    margin: 0;
+    display: block;
 }
-/*titulo principal*/
-h1{
-text-shadow: 5px 5px grey;
-    position: absolute;
+
+/*botão*/
+.img-topo {
+    position: relative;
     text-align: center;
-top: 18%;
-left: 26%;
-font-size: 100px;
-font-family: monospace;
-color:white;
-letter-spacing: 1px;
-border-radius: 10px;
 }
 
-div{
-    margin: 0px;
+.img-topo button{
+    position:absolute;
+    top:80%;
+    left:50%;
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+    background-color: #556B2f;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 15px;
+
 }
 
-/*texto abaixo do título*/
-p{
-    top: 40%;
-    position: absolute;
-    left: 20%;
-    font-size: 30px;
+.img-topo button a{
     color: white;
-    font-family:georgia;
-
-}
-
-
-/*vídeo do youtube*/
-iframe{
-    position: absolute;
-    top: 100%;
-    margin: 1%;
-    width: 400px;
-    height: 300px;
-    cursor: pointer;
-}
-
-#novo-video{
-    position: absolute;
-    top: 150%;
-    margin: 1%;
-    width: 400px;
-    height: 300px;
-    cursor: pointer;
-}
-
-
-/*criando linhas*/
-#linha-vertical {
-position: absolute;
-top: 45%;
-border-left: 2px solid grey;
-height: 1280px;
-margin: 23%;
-}
-/*linha vertical direita*/
-#linha-vertical-direita{
-position: absolute;
-top: 45%;
-border-right: 2px solid grey;
-height: 1280px;
-margin: 22%;
-right: 5%;
-}
-
-
-/*links relacionados*/
-#text{
-position: absolute;
-top: 93%;
-left: 1%;
-background-color: #556B2f;
-width: 400px;
-height: 55px;
-text-align: center;
-color: white;
-border-radius: 10px;
-}
-
-#link:hover{
-    color: #008b8b;
-}
-
-/*paragrafo abaixo do vídeo*/
-#paragrafo-estando{
-position: absolute;
-    font-size: 22px;
-    color: #556B2f;
-    position: absolute;
-    top: 133%;
-    left: 1%;
-}
-#titulo-dois{
-    position: absolute;
-    top: 185%;
-    left: 1%;
     text-decoration: none;
-    font-size: 22px;
-
-}
-
-
-#link{
-    text-decoration: none;
-    color: #556B2f;
-}
-
-#link-dois{
-    text-decoration: none;
-    color: #556B2f;
-}
-
-#link-dois:hover{
-    color: #008b8b;
-}
-/*menu*/
-header{
-margin:0%;
-
-}
-
-#menu{
-  display: flex;
-position: absolute;
-  justify-content: center;
-  background-color: #556B2f;
-  padding: 0%;
-  top: 75%;
-  text-align: center;
-  height: 70px;
-  opacity: 85%;
-
-}
-
-
-#menu li{
-    list-style: none;
-   margin: 0px 30px;
-    display: inline-block;
-}
-
-header a{
-    text-decoration: none;
-    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
 }
 
-header a:hover{
-    background-color: #008b8b;
-    opacity: 50%;
+.img-topo button a:hover{
+    color: #008b8b;
 }
 
-/*conceito de saúde*/
-#conceito{
-    position: absolute;
-text-align: center;
-top: 102%;
-font-size: 20px;
-color: black;
-left: 28%;
-}
-/*título saude*/
-#saude{
-    background-color: #556B2f;
-    width: 200px;
-    height: 55px;
-position: absolute;
-text-align: center;
-    top: 90%;
-    color: white;
-    font-size: 40px;
-    left: 28%;
-    border-radius: 10px;
-}
-/*fofo saude*/
-#foto{
-    position: absolute;
-    text-align: center;
-    width: 500px;
-    height: 500px;
-    top: 112%;
-    left: 28%;
+.img-topo h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+  color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px grey;
+    font-size: 60px;
 }
 
-#pequeno-texto{
-    display: flex;
-text-align: center;
-    position: absolute;
-    top: 75%;
-   
-}
-
-#bem-estar{
-    background-color: #556B2f;
-    width: 200px;
-    height: 55px;
-position: absolute;
-text-align: center;
-    top: 155%;
-    color: white;
-    font-size: 40px;
-    left: 28%;
-    border-radius: 10px; 
-}
-
-#conceito-bem-estar{
-    position: absolute;
-    text-align: center;
-    top: 165%;
-    font-size: 20px;
-    color: black;
-    left: 26%;
-    }
-
-    #foto-bem-estar{
-        position: absolute;
-    text-align: center;
-    width: 500px;
-    height: 500px;
-    top: 180%;
-    left: 28%;
-}
-
-#segundo-texto{
-    display: flex;
-    text-align: center;
-        position: absolute;
-        top: 75%;
-
-   }    
-
-   /*ods*/
-   #ods{
-    background-color: #556B2f;
-    width: 1000px;
-    height: 55px;
-position: absolute;
-text-align: center;
-justify-content: center;
-    top: 226%;
-    color: white;
-    font-size: 40px;
-    left: 22%;
-    border-radius: 10px;
-}
-
-
-#metas{
-    display: flex;
-    position: absolute;
-      justify-content: center;
-      padding: 0%;
-      background-color: #008b8b;
-      top: 238%;
-      text-align: center;
-      height: 71px;
-      opacity: 85%;
-      left: 21%;
-      color: black;
-      font-size: 20px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      border-radius: 2px;
-}
-
-#paragrafo-metas{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 24%;
-    top: 248%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-dois{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 253%;
-    color: black;
-    font-size: 20px;
-}
-#paragrafo-tres{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 262%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-quatro{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 269%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-cinco{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 275%;
-    color: black;
-    font-size: 20px;
-}
-#paragrafo-seis{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 279%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-sete{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 284%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-oito{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 291%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-nove{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 298%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-dez{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 305%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-onze{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 310%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-doze{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 324%;
-    color: black;
-    font-size: 20px;
-}
-
-#paragrafo-treze{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    left: 23%;
-    top: 334%;
-    color: black;
-    font-size: 20px;
-}
-
-footer{   
-    position: absolute;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #556B2f;
-opacity: 90%;
+.img-topo p{
+    position:absolute;
+    top:60%;
+    left:50%;
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+  color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 color: white;
-top: 360%;
-height: 250px;
-width: 100%;
-}
-
-#rodape{
-    position: absolute;
-    top: 35%;
-    left: 20%;
-    font-size: 30px;
-
 }
 
 
-#titulo-contact{
-   top: 5%;
+
+ .menu{
     text-align: center;
+
+
+
+ }
+
+ .menu ul{
+    justify-content: space-between;
+background-color:#556B2f;
+opacity: 80%;
+ }
+
+.menu li {
+    display: inline-block;
+    margin: 0 50px;
+
+}
+
+.menu li a{
+    padding: 5px 5px;
+  margin-left: 30px;
+display: inline-block;
+    text-align: center;
+    margin: 10px;
+    height: 5vh;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu li a:hover{
+    color:  #008b8b;
+}
+
+section{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+main{
+
+    padding: 0;
+    
+}
+
+.saude h3{
+    
+    text-align: center;
+    padding: 0;
+    color: #556B2f;
     font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+   text-decoration: underline;
+
+}
+
+.saude p{
+
+    font-size: 22px;
+    padding: 5%;
+    
+}
+
+.saude img{
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px 5px #008b8b;
+}
+
+
+/*Bem estar*/
+
+.bem-estar h3{
+
+    text-align: center;
+    margin-top: 200px;
+    padding: 0%;
+    color: #556B2f;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+   text-decoration: underline;
+}
+
+.bem-estar p{
+    text-align: justify;
+    font-size: 22px;
+    text-align: center;
+}
+
+.img-bem img{
+
+   
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px 5px #008b8b;
+}
+
+
+/*objetivos e metas*/
+
+.objetivo h4{
+
+    padding: 20px 4%;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #008b8b;
+    text-align: justify;
  
 }
 
-#titulo-email{
-
-position: absolute;
-top: 79%;
-left: 20%;
-font-size: 25px;
+.objetivo img{
+    margin-top: 50px;
 }
 
-#gmail{
-    position: absolute;
-    top: 79%;
-    left: 25%;
-    font-size: 25px;
-}
-#minhas-redes-sociais a{
-   position: absolute;
-    text-decoration: none;
-    top: 89%;
-    font-size: 25px;
-    color: white;
-    left: 47%;
-}
 
-#minhas-redes-sociais a:hover{
-    color: #008b8b;
-}
-
-#logo-linkedin{
-    position: absolute;
-    top: 90%;
-    left: 45%;
-}
-
-#carine-lim{
-position: absolute;
-left: 7%;
-top: 15%;
-}
-
-#logo-insta{
-    position: absolute;
-    top: 88%;
-    left: 60%;
-}
-
-#instagram a{
-    position: absolute;
-    color: white;
-    top: 89%;
-    font-size: 25px;
-    left: 63%;
-    text-decoration: none;
-}
-#instagram a:hover{
-    color: #008b8b;
-}
-
-#artigos{
-    position: absolute;
- right: 1%;
- top: 93%;
- width: 400px;
-height: 55px;
-border-radius: 10px;
-background-color: #556B2f;
-color: white;
-text-align: center;
-}
-
-#artigo-um{
-    position:absolute;
-    right: 2%;
-    top: 110%;
-    font-size: 25px;
-    text-align: center;
-
-}
-
-#artigo-um a{
-color: #556B2f;
-}
-
-#artigo-dois{
-    position:absolute;
-    right: 4%;
-    top: 140%;
-    font-size: 25px;
-    text-align: center;
-}
-
-#artigo-dois a{
+.objetivo p{
+  word-break: normal;
+    margin-top: 120px;
+    padding: 3px 4%;
     color: #556B2f;
+    text-align: justify;
 }
 
-#artigo-tres{
-    position:absolute;
-    right: 1%;
-    top: 170%;
-    font-size: 25px;
-    text-align: center;
+/*botao saiba mais*/
+
+.btn-ods {
+   padding: 4%;
+    text-align: start;
+
 }
 
-#artigo-tres a{
+.btn-ods button{
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: #556B2f;
+    padding: 15px 15px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/*informações nas laterais*/
+aside{
+    height: 100vh;
+    padding: 2%;
+    width: 18vh;
+    margin-top: 50px;
+    
+ 
+}
+
+aside h2{
+font-size: 30px;
 color: #556B2f;
+
+}
+
+aside li{
+margin-top: 70px;
+list-style: none;
+}
+
+aside a{
+
+    color: #556B2f;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+
+aside a:hover{
+    color: #008b8b;
+}
+
+.saude{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.artigos h3{
+    font-size: 30px;
+    padding: 10px 10px;
+    color: #556B2f;
+    margin-top: 300px;
+}
+
+
+/*rodape*/
+
+footer{
+text-align: center;
+padding:20px 4%;
+margin-top: 200px;
+background-color: #556B2f;
+
+
+} 
+
+.contato{
+    padding: 5px 0%;
+    margin-top: 50px;
+
+}
+
+.contato h3{
+
+    margin-bottom: 30px;
+    font-size: 30px;
+  
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.contato h4{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.contato p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.redes-sociais{
+    text-align: center;
+   
+}
+
+#instagram{
+    margin: 10px;
+  background-color:#E1306C;
+  border-radius: 5px;
+}
+
+#git{
+    background-color: blueviolet;
+}
+
+.redes-sociais i{
+   
+    margin-top: 50px;
+    background-color:#0e76a8;
+    color:  white;
+    font-size: 30px;
+    cursor: pointer; 
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.redes-sociais a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.redes-sociais a:hover{
+    color: #008b8b;
+}
+
+
+/*creditos*/
+
+.line{
+    margin-top: 50px;
+    border: 3px solid white;
+}
+
+
+
+
+.creditos h3{
+
+    color: white;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.creditos p,a{
+text-align: start;
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+
+.creditos a:hover{
+    color: #008b8b;
+}
+
+.e-mail a{
+font-size: 25px;
+
+}
+
+.e-mail a:hover{
+    text-decoration: underline;
+    color: #008b8b;
+}
+
+/*responsividade*/
+@media screen and (max-width:1020px) {
+
+    section, main{
+        display: block;
+    }
+
+
+    aside{
+        display: none;
+    }
+
+.e-mail a{
+    display: inline-block;
+    font-size: 20px;
+}
+
+    .saude img{
+        width: 300px;
+    }
+    
+.img-topo img{
+margin: 0;
+max-width: 100%;
+display: block;
+
+}
+
+
+.bem-estar img{
+    margin: 0;
+    max-width: 100%;
+
+ 
+}
+
+.img-topo button{
+ display: none;
+}
+
+.img-topo h1{
+    font-size: 15px;
+    text-shadow: none;
+}
+
+.img-topo p{
+    display: none;
+
+}
+
+.menu ul{
+  
+    text-align: center;
+   
+    
+}
+
+.menu li a{
+    font-size: 15px;
+    color: black;
+    
+}
+
+
+
+.objetivo img{
+
+    margin-top: 30px;
+}
+
+.redes-sociais i a {
+    display: block;
+}
+
+.btn-ods button{
+     
+    font-size: 50px;
+    width: 150px;
+}
+
+.btn-ods button a:hover{
+text-align: center;
+color: #008b8b;
+}
+
+.redes-sociais i{
+
+display: none;
+    
+}
+
+.redes-sociais a{
+color:#E1306C
+}
+
 }
